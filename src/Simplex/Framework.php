@@ -2,8 +2,8 @@
 
 namespace Simplex;
 
-use Symfony\Component\HttpKernel\HttpKernel;
+use Symfony\Component\HttpKernel;
 
-class Framework extends HttpKernel
+class Framework extends HttpKernel\HttpKernel
 {
 }
